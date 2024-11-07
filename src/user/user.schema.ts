@@ -11,6 +11,27 @@ export class UserDB extends Document {
 
   @Prop()
   expertise: string;
+
+  @Prop()
+  pincode:number;
+
+  @Prop()
+  phone:number;
+
+  @Prop()
+  email:string;
+
+  @Prop()
+  department:string;
+
+  @Prop()
+  religion:string;
+
+  @Prop()
+  language:string;
+
+  @Prop()
+  dob:string
 }
 
 export const UserSchema = SchemaFactory.createForClass(UserDB);

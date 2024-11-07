@@ -9,7 +9,14 @@ interface User {
     id: number,
     name:string,
     place:string,
-    expertise:string
+    expertise:string,
+    phone:number,
+    email:string,
+    department:string,
+    religion:string,
+    language:string,
+    dob:string,
+    pincode:number
 }
 
 @Controller('user')
