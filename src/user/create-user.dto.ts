@@ -8,7 +8,7 @@ export interface CreateUserDto {
     department:string;
     religion:string;
     language:string;
-    dob:string;
+    dob:Date;
     pincode:number;
 }
 

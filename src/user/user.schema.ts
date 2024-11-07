@@ -31,7 +31,7 @@ export class UserDB extends Document {
   language:string;
 
   @Prop()
-  dob:string
+  dob:Date
 }
 
 export const UserSchema = SchemaFactory.createForClass(UserDB);
