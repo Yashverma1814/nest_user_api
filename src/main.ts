@@ -3,9 +3,9 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  const allowedOrigins = 'https://user-mangement-frontend.onrender.com/'
+  // const allowedOrigins = 'https://user-mangement-frontend.onrender.com/'
   app.enableCors({
-    origin: allowedOrigins,
+    origin: 'https://user-mangement-frontend.onrender.com/',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
