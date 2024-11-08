@@ -16,7 +16,16 @@ interface User {
     religion:string,
     language:string,
     dob:Date,
-    pincode:number
+    pincode:number,    
+    gender:string,
+    nationality:string,
+    aadhaarNo:number,
+    address:string,
+    bloodGrp:string,
+    fatherName:string,
+    motherName:string,
+    employed:boolean,
+    married:boolean,
 }
 
 @Controller('user')

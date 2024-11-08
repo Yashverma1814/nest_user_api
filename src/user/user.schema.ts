@@ -31,7 +31,34 @@ export class UserDB extends Document {
   language:string;
 
   @Prop()
-  dob:Date
+  dob:Date;
+
+  @Prop()
+  gender:string;
+
+  @Prop()
+  nationality:string;
+  
+  @Prop()
+  aadhaarNo:number;
+  
+  @Prop()
+  address:string;
+  
+  @Prop()
+  bloodGrp:string;
+  
+  @Prop()
+  fatherName:string;
+  
+  @Prop()
+  motherName:string;
+  
+  @Prop()
+  employed:boolean;
+  
+  @Prop()
+  married:boolean;
 }
 
 export const UserSchema = SchemaFactory.createForClass(UserDB);
